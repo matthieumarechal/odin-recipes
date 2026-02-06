@@ -1,6 +1,11 @@
-
-
 body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffee;
+    font-size: 18px;
+}
+
+.main {
     background-color: #ffffee;
     font-family: "Noto Sans";
     width: 1200px;
@@ -16,12 +21,32 @@ a:hover {
     text-decoration: none;
 }
 
+.nav {
+    background-color: #fcfce8;
+    padding: 10px 0 15px;
+    text-align: center;
+}
+
+.nav a {
+    color: #fe8972;
+    padding: 0 20px;
+}
+
+h3 {
+    color: #81b46a;
+    font-weight: bold;
+}
+
+li {
+    padding: 0 0 5px;
+}
+
 .center {
     text-align: center;
 }
 
 #mega_title {
-    margin: 20px auto;
+    margin: 20px auto 20px;
     text-align: center;
     font-size: 100px;
     font-weight: 1000;
@@ -46,4 +71,16 @@ a:hover {
 .the_menu {
     width: 50%;
     margin: 0 auto;
+}
+
+/* Recipe Style - - - - - - - - - - - - - - - - - - - - - */ 
+
+.recipe_title {
+    font-size: 80px;
+    color: #fe8972;
+}
+
+.quick_text {
+    color: #fe8972;
+    font-style: italic;
 }
