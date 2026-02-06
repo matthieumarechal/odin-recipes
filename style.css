@@ -1,0 +1,49 @@
+
+
+body {
+    background-color: #ffffee;
+    font-family: "Noto Sans";
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a, a:visited {
+    color: #fe8972;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+#mega_title {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 1000;
+    color: #fe8972;
+    text-decoration: underline;
+}
+
+.sub_title {
+    padding: 20px 0;
+    font-size: 30px;
+    color: #fe8972;
+}
+
+.simple_para {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #81b46a;
+    text-align: justify;
+}
+
+.the_menu {
+    width: 50%;
+    margin: 0 auto;
+}
